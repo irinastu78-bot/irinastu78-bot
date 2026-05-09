@@ -19,13 +19,13 @@ Here are some ideas to get you started:
 Меня зовут Ирина, я занимаюсь разработкой AI-инструментов, автоматизацией и экспериментальными проектами на Python.  
 Интересуюсь prompt engineering, генеративными моделями, AI automation и созданием прикладных сервисов на базе нейросетей.
 
-Сейчас фокусируюсь на:
-- AI-интеграциях и автоматизации
-- Python backend разработке
+Основной фокус:
+- AI integrations
+- Python backend development
+- automation workflows
 - prompt engineering
-- генерации изображений и видео
-- AI-assisted workflows
-- инструментах для обработки и структурирования данных
+- AI-powered tools
+- генерация изображений и видео
 
 ---
 
@@ -74,38 +74,69 @@ Here are some ideas to get you started:
 
 ---
 
+### 🤖 Multi-channel AI Booking Assistant
+Экспериментальный AI-ассистент для записи клиентов с multi-channel архитектурой: Telegram-бот + веб-чат + интеграция с OpenAI и Google Sheets.
+В репозитории реализован пример для салона красоты. Бот консультирует клиента и записывает его на услугу, держит в памяти 20-30 сообщений чата, умеет определять из произвольного текста контактные данные, время записи и пожелания клиента, записывает лиды в аналог CRM в Google таблицах. 
+
+Возможности:
+- Telegram bot + website chat
+- conversational booking flow
+- Google Sheets CRM integration
+- session memory
+- structured lead extraction
+- fallback architecture
+
+Технологии:
+`Python` `Flask` `OpenAI API` `Google Sheets API` `Telegram Bot API`
+
+---
+
 ### 🎨 ZeroYandex
 Экспериментальный AI-проект для генерации логотипов через YandexART API.
 
 Проект создавался как исследование:
 - prompt engineering
-- управляемой генерации через seed
-- refinement pipeline
-- интеграции AI API в web-приложение
+- AI API integration
+- seed-based generation
+- refinement workflows
 
-Что реализовано:
+Особенности:
 - Flask backend
 - SPA frontend
 - preset styles
-- refinement существующего результата
-- async polling генерации
-- конфигурация через `.env`
-- обработка ошибок и timeout
-
-⚠️ Качество генерации зависит от возможностей модели и может быть нестабильным для сложных запросов.
+- refinement pipeline
+- async generation polling
 
 Технологии:
-`Python` `Flask` `REST API` `Yandex Cloud API` `JavaScript`
+`Python` `Flask` `REST API` `Yandex Cloud API`
 
 ---
 
-## 🛠 Технологии и инструменты
+### 🎤 Realtime Audio Transcriber *(WIP)*
+Система realtime-транскрибации аудио с локальным ASR и диагностическим pipeline.
+
+Текущий фокус:
+- realtime audio processing
+- queue-based architecture
+- WASAPI loopback capture
+- local ASR backends
+- diagnostics and debugging tools
+
+Технологии:
+`Python` `Vosk` `PyAudio` `WASAPI`
+
+---
+
+# 🛠 Технологии
 
 ### Backend
 `Python` `Flask` `REST API`
 
 ### AI / Automation
-`Prompt Engineering` `LLM` `AI Tools` `Image Generation`
+`Prompt Engineering` `LLM` `OpenAI API` `Conversational AI`
+
+### Integrations
+`Telegram Bot API` `Google Sheets API`
 
 ### Dev Tools
 `Git` `GitHub` `Docker` `PyCharm`
@@ -115,14 +146,14 @@ Here are some ideas to get you started:
 
 ---
 
-## 🔬 Сейчас изучаю
+# 🔬 Сейчас изучаю
 
 - AI automation systems
+- advanced prompt engineering
 - web development
 - model fine-tuning
-- advanced prompt engineering
 - AI-assisted applications
-- генерацию и обработку мультимедиа
+- multimedia processing
 
 ---
 
