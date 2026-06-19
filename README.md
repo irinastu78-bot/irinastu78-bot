@@ -77,6 +77,30 @@ Screenshots: <br>
   <img src="images/wordindexer/toc_ru_last.png" alt="Последняя страница оглавления" title="Последняя страница оглавления" height="100">
 </a>
 
+---
+
+### 📚 [Vaska-Openclaw-Assistant](https://github.com/irinastu78-bot/Vaska-Openclaw-Assistant)
+AI-ассистент на OpenClaw (Telegram + веб-чат с общей историей): pipeline обезличивания ПДн, генерация презентаций, инфографики и гистограмм.
+
+Роль в проекте: проектирование, развёртывание и развитие персонального помощника для двух пользователей — личного и рабочего контура с конфиденциальными документами.
+
+Платформа: OpenClaw на выделенном VPS · Каналы: Telegram и веб-чат (свой домен) · Модель: ChatGPT Codex по подписке (gpt-5.4), платный OpenAI API — только по явной команде владельца.
+
+Что реализовано:
+- Круглосуточный персональный ассистент на **выделенном сервере** с единым опытом в Telegram и браузере.
+- Конфиденциальные `.docx` обрабатываются по сценарию «маска → анализ → сборка → восстановление».
+- Презентации, инфографика и **гистограммы** — по запросу, без обязательного платного image API.
+- Управляемая стоимость: Codex по подписке, API — только когда нужно.
+- Повторяемое развёртывание и документированные сценарии (защита ПДн, презентации, графики, веб-чат).
+
+Технологии:
+`OpenClaw` `Python` (Presidio, python-docx, python-pptx, matplotlib) `Node.js` (Satori, resvg) `nginx` `Telegram Bot API` `WebSocket` `systemd`.
+<!--
+Screenshots: <br>
+<a href="images/wordindexer/article_example.png" target="_blank">
+  <img src="images/wordindexer/article_example.png" alt="Пример исходного текста статьи" title="Пример исходного текста статьи" height="100">
+</a>
+-->
 
 ---
 
