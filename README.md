@@ -95,12 +95,24 @@ AI-ассистент на OpenClaw (Telegram + веб-чат с общей ис
 
 Технологии:
 `OpenClaw` `Python` (Presidio, python-docx, python-pptx, matplotlib) `Node.js` (Satori, resvg) `nginx` `Telegram Bot API` `WebSocket` `systemd`.
-<!--
+
 Screenshots: <br>
-<a href="images/wordindexer/article_example.png" target="_blank">
-  <img src="images/wordindexer/article_example.png" alt="Пример исходного текста статьи" title="Пример исходного текста статьи" height="100">
+<a href="images/vaska/tg_vs_web_chat.png" target="_blank">
+  <img src="images/vaska/tg_vs_web_chat.png" alt="Общий вид телеграм- и веб-чата" title="Общий вид телеграм- и веб-чата" height="100">
 </a>
--->
+<a href="images/vaska/tg_api_balance.png" target="_blank">
+  <img src="images/vaska/tg_api_balance.png" alt="Проверка баланса" title="Проверка баланса" height="100">
+</a>
+<a href="images/vaska/web_chat_pres_gen.png" target="_blank">
+  <img src="images/vaska/web_chat_pres_gen.png" alt="Генерация презентации через веб-чат" title="Генерация презентации через веб-чат" height="100">
+</a>
+<a href="images/vaska/tg_pres_gen.png" target="_blank">
+  <img src="images/vaska/tg_pres_gen.png" alt="Генерация презентации в Телеграм" title="Генерация презентации в Телеграм" height="100">
+</a>
+<a href="images/vaska/pres_example.png" target="_blank">
+  <img src="images/vaska/pres_example.png" alt="Пример сгенерированной презентации" title="Пример сгенерированной презентации" height="100">
+</a>
+
 
 ---
 
