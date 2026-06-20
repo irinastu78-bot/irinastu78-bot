@@ -103,6 +103,18 @@ Screenshots: <br>
 <a href="images/vaska/tg_api_balance.png" target="_blank">
   <img src="images/vaska/tg_api_balance.png" alt="Проверка баланса" title="Проверка баланса" height="100">
 </a>
+<a href="images/vaska/stt.png" target="_blank">
+  <img src="images/vaska/stt.png" alt="Распознавание голоса" title="Распознавание голоса" height="100">
+</a>
+<a href="images/vaska/anonimized_doc.png" target="_blank">
+  <img src="images/vaska/anonimized_doc.png" alt="Удаление персональных данных из документов перед отправкой в LLM" title="Удаление персональных данных из документов перед отправкой в LLM" height="100">
+</a>
+<a href="images/vaska/web_push.png" target="_blank">
+  <img src="images/vaska/web_push.png" alt="Веб-пуш уведомления" title="Веб-пуш уведомления" height="100">
+</a>
+<a href="images/vaska/image_gen.png" target="_blank">
+  <img src="images/vaska/image_gen.png" alt="Генерация изображений" title="Генерация изображений" height="100">
+</a>
 <a href="images/vaska/web_chat_pres_gen.png" target="_blank">
   <img src="images/vaska/web_chat_pres_gen.png" alt="Генерация презентации через веб-чат" title="Генерация презентации через веб-чат" height="100">
 </a>
