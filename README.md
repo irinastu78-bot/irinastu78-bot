@@ -111,7 +111,7 @@ Screenshots: <br>
 </a>
 <a href="images/vaska/web_push.png" target="_blank">
   <img src="images/vaska/web_push.png" alt="Веб-пуш уведомления" title="Веб-пуш уведомления" height="100">
-</a>
+</a><br>
 <a href="images/vaska/image_gen.png" target="_blank">
   <img src="images/vaska/image_gen.png" alt="Генерация изображений" title="Генерация изображений" height="100">
 </a>
