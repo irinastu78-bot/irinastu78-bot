@@ -79,6 +79,74 @@ Screenshots: <br>
 
 ---
 
+### 📚 [Podcast Content Planner](https://github.com/irinastu78-bot/podcast-content-planner)
+ИИ-ассистент для автоматизации производства подкастов.
+
+**Задача:** автоматизировать подготовку выпусков подкаста — от идеи
+до готового сценария для озвучки — с использованием нейросетевых
+моделей и работы с базой знаний.
+
+**Реализовано:**
+- Пятиэтапный конвейер генерации контента на базе OpenAI API.
+- Работа с источниками: загрузка файлов разных форматов и статей по URL.
+- Поддержка диалоговых и сольных форматов, включая детский «сказочный».
+- Финальная ИИ-редактура текста и автокоррекция смешанного алфавита.
+- Многопользовательский режим с авторизацией и сохранением проектов.
+- Экспорт в Word и JSON. Развёртывание в облаке.
+
+**Технологии:** 
+Python` `Streamlit` `OpenAI API` (gpt-4o-mini) `SQLite` `python-docx` `pypdf` `python-pptx` `openpyxl` `trafilatura` 
+
+**Результат:** работающее веб-приложение, готовое к практическому
+использованию; сокращает время подготовки выпуска в несколько раз.
+
+
+Screenshots: <br>
+<a href="images/podcast_planner/gen_ideas.png" target="_blank">
+  <img src="images/podcast_planner/gen_ideas.png" alt="Главный экран приложения с заполненными параметрами подкаста: название, длительность, аудитория, формат, стиль, имя собеседника" title="Главный экран приложения с заполненными параметрами подкаста: название, длительность, аудитория, формат, стиль, имя собеседника" height="100">
+</a>
+<a href="images/podcast_planner/menu1.png" target="_blank">
+  <img src="images/podcast_planner/menu1.png" alt="Меню параметров для подкаста из научной статьи" title="Меню параметров для подкаста из научной статьи" height="100">
+</a>
+<a href="images/podcast_planner/menu2.png" target="_blank">
+  <img src="images/podcast_planner/menu2.png" alt="Параметры меню для подкаста из научной статьи (часть 2)" title="Параметры меню для подкаста из научной статьи (часть 2)" height="100">
+</a>
+<a href="images/podcast_planner/menu3.png" target="_blank">
+  <img src="images/podcast_planner/menu3.png" alt="Загрузка файла-источника (книга в PDF/DOCX)" title="Загрузка файла-источника (книга в PDF/DOCX)" height="100">
+</a>
+<a href="images/podcast_planner/menu4.png" target="_blank">
+  <img src="images/podcast_planner/menu4.png" alt="Добавление ссылки на статью как источника" title="Добавление ссылки на статью как источника" height="100">
+</a>
+<a href="images/podcast_planner/conspect.png" target="_blank">
+  <img src="images/podcast_planner/conspect.png" alt="Готовый конспект статьи, который можно подключить как источник для подкаста" title="Готовый конспект статьи, который можно подключить как источник для подкаста" height="100">
+</a>
+<a href="images/podcast_planner/ideas_chem.png" target="_blank">
+  <img src="images/podcast_planner/ideas_chem.png" alt="Сгенерированные идеи выпусков" title="Сгенерированные идеи выпусков" height="100">
+</a>
+<a href="images/podcast_planner/content_chem.png" target="_blank">
+  <img src="images/podcast_planner/content_chem.png" alt="Контент-план на несколько выпусков" title="Контент-план на несколько выпусков" height="100">
+</a>
+<a href="images/podcast_planner/struc_chem.png" target="_blank">
+  <img src="images/podcast_planner/struc_chem.png" alt="Структура выпуска с блоками и хронометражем" title="Структура выпуска с блоками и хронометражем" height="100">
+</a>
+<a href="images/podcast_planner/tts_screen.png" target="_blank">
+  <img src="images/podcast_planner/tts_screen.png" alt="Текст для озвучки с разбивкой по ролям и индикатором прогресса генерации" title="Текст для озвучки с разбивкой по ролям и индикатором прогресса генерации" height="100">
+</a>
+<a href="images/podcast_planner/tts_rec.png" target="_blank">
+  <img src="images/podcast_planner/tts_rec.png" alt="Рекомендации по голосам для синтеза речи" title="Рекомендации по голосам для синтеза речи" height="100">
+</a>
+<a href="images/podcast_planner/tts_word.png" target="_blank">
+  <img src="images/podcast_planner/tts_word.png" alt="Готовый Word-файл с технической шапкой: название подкаста, длительность, аудитория, стиль, участники" title="Готовый Word-файл с технической шапкой: название подкаста, длительность, аудитория, стиль, участники" height="100">
+</a>
+<a href="images/podcast_planner/ideas_tale.png" target="_blank">
+  <img src="images/podcast_planner/ideas_tale.png" alt="Пример использования формата и стиля «сказка»: идеи выпусков" title="Пример использования формата и стиля «сказка»: идеи выпусков" height="100">
+</a>
+<a href="images/podcast_planner/tts_tale.png" target="_blank">
+  <img src="images/podcast_planner/tts_tale.png" alt="Пример использования формата и стиля «сказка»: текст для озвучки" title="Пример использования формата и стиля «сказка»: текст для озвучки" height="100">
+</a>
+
+---
+
 ### 📚 [Vaska-Openclaw-Assistant](https://github.com/irinastu78-bot/Vaska-Openclaw-Assistant)
 AI-ассистент на OpenClaw (Telegram + веб-чат с общей историей): pipeline обезличивания ПДн, генерация презентаций, инфографики и гистограмм.
 
