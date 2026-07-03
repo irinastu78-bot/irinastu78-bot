@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 Меня зовут Ирина, я занимаюсь разработкой AI-инструментов, автоматизацией и экспериментальными проектами на Python.  
 Интересуюсь prompt engineering, генеративными моделями, AI automation и созданием прикладных сервисов на базе нейросетей.
 
-Основной фокус:
+**Основной фокус:**
 - AI integrations
 - Python backend development
 - automation workflows
@@ -36,7 +36,7 @@ Here are some ideas to get you started:
 
 Проект разрабатывался для реального сборника научных статей объемом около 450 страниц.
 
-Что реализовано:
+**Что реализовано:**
 - генерация предметных указателей
 - генерация авторских указателей
 - построение оглавления
@@ -47,10 +47,10 @@ Here are some ideas to get you started:
 - пайплайн обработки через промежуточные артефакты и debug-данные
 - сбор списка e-mail авторов
 
-Технологии:
+**Технологии:**
 `Python` `pywin32` `Word COM` `CSV` `Git`
 
-Screenshots: <br>
+**Screenshots:** <br>
 <a href="images/wordindexer/article_example.png" target="_blank">
   <img src="images/wordindexer/article_example.png" alt="Пример исходного текста статьи" title="Пример исходного текста статьи" height="100">
 </a>
@@ -95,13 +95,13 @@ Screenshots: <br>
 - Экспорт в Word и JSON. Развёртывание в облаке.
 
 **Технологии:** 
-Python` `Streamlit` `OpenAI API` (gpt-4o-mini) `SQLite` `python-docx` `pypdf` `python-pptx` `openpyxl` `trafilatura` 
+`Python` `Streamlit` `OpenAI API` (gpt-5.4-mini) `SQLite` `python-docx` `pypdf` `python-pptx` `openpyxl` `trafilatura` 
 
 **Результат:** работающее веб-приложение, готовое к практическому
 использованию; сокращает время подготовки выпуска в несколько раз.
 
 
-Screenshots: <br>
+**Screenshots:** <br>
 <a href="images/podcast_planner/gen_ideas.png" target="_blank">
   <img src="images/podcast_planner/gen_ideas.png" alt="Главный экран приложения с заполненными параметрами подкаста: название, длительность, аудитория, формат, стиль, имя собеседника" title="Главный экран приложения с заполненными параметрами подкаста: название, длительность, аудитория, формат, стиль, имя собеседника" height="100">
 </a>
@@ -150,9 +150,9 @@ Screenshots: <br>
 ### 📚 [Vaska-Openclaw-Assistant](https://github.com/irinastu78-bot/Vaska-Openclaw-Assistant)
 AI-ассистент на OpenClaw (Telegram + веб-чат с общей историей): pipeline обезличивания ПДн, генерация презентаций, инфографики и гистограмм.
 
-Платформа: OpenClaw на выделенном VPS · Каналы: Telegram и веб-чат (свой домен) · Модель: ChatGPT Codex по подписке (gpt-5.4), платный OpenAI API — только по явной команде владельца.
+**Платформа:**OpenClaw на выделенном VPS · Каналы: Telegram и веб-чат (свой домен) · Модель: ChatGPT Codex по подписке (gpt-5.4), платный OpenAI API — только по явной команде владельца.
 
-Что реализовано:
+**Что реализовано:**
 - Круглосуточный персональный ассистент на выделенном сервере с **единым опытом в Telegram и браузере**.
 - Ассистент может работать для нескольких пользователей с рабочим и личным контуром для каждого.
 - Возможно подключение бота в группу Телеграм.
@@ -161,10 +161,10 @@ AI-ассистент на OpenClaw (Telegram + веб-чат с общей ис
 - Уведомления, напоминания по расписанию (Телеграм-чат, веб-пуши).
 - Управляемая стоимость: Codex по подписке, API — только когда нужно.
   
-Технологии:
+**Технологии:**
 `OpenClaw` `Python` (Presidio, python-docx, python-pptx, matplotlib) `Node.js` (Satori, resvg) `nginx` `Telegram Bot API` `WebSocket` `systemd`.
 
-Screenshots: <br>
+**Screenshots:** <br>
 <a href="images/vaska/tg_vs_web_chat.png" target="_blank">
   <img src="images/vaska/tg_vs_web_chat.png" alt="Общий вид телеграм- и веб-чата" title="Общий вид телеграм- и веб-чата" height="100">
 </a>
@@ -204,23 +204,23 @@ Screenshots: <br>
 - web application
 - Telegram bot
 
-Архитектура проекта:
+**Архитектура проекта:**
 - Flask backend
 - SPA frontend
 - Telegram bot на pyTelegramBotAPI
 - отдельные Docker-контейнеры
 - файловое хранилище вместо БД для упрощения отладки и развертывания
 
-Особенности:
+**Особенности:**
 - разные сценарии обработки задач для web и Telegram
 - автоматическая отправка результатов пользователю
 - асинхронная обработка генерации
 - разделение frontend/backend логики
 
-Технологии:
+**Технологии:**
 `Python` `Flask` `Docker` `Gunicorn` `Telegram Bot API` `HTML` `CSS` `JavaScript`
 
-Screenshots: <br>
+**Screenshots:** <br>
 <a href="images/zerovideo/telegram_gen_video.png" target="_blank">
   <img src="images/zerovideo/telegram_gen_video.png" alt="Пример чата в телеграм боте с генерацией видео" title="Пример чата в телеграм боте с генерацией видео" height="100">
 </a>
@@ -234,7 +234,7 @@ Screenshots: <br>
 Экспериментальный AI-ассистент для записи клиентов с multi-channel архитектурой: Telegram-бот + веб-чат + интеграция с OpenAI и Google Sheets.
 В репозитории реализован пример для салона красоты. Бот консультирует клиента и записывает его на услугу, держит в памяти 20-30 сообщений чата, умеет определять из произвольного текста контактные данные, время записи и пожелания клиента, записывает лиды в аналог CRM в Google таблицах. 
 
-Возможности:
+**Возможности:**
 - Telegram bot + website chat
 - conversational booking flow
 - Google Sheets CRM integration
@@ -242,10 +242,10 @@ Screenshots: <br>
 - structured lead extraction
 - fallback architecture
 
-Технологии:
+**Технологии:**
 `Python` `Flask` `OpenAI API` `Google Sheets API` `Telegram Bot API`
 
-Screenshots: <br>
+**Screenshots:** <br>
 <a href="images/multichannel_ai_booking_assistant/Telegram_conversation.png" target="_blank">
   <img src="images/multichannel_ai_booking_assistant/Telegram_conversation.png" alt="Телеграм бот для записи клиента" title="Телеграм бот для записи клиента" height="100">
 </a>
@@ -262,23 +262,23 @@ Screenshots: <br>
 ### 🎨[ZeroYandex](https://github.com/irinastu78-bot/ZeroYandex)
 Экспериментальный AI-проект для генерации логотипов через YandexART API.
 
-Проект создавался как исследование:
+**Проект создавался как исследование:**
 - prompt engineering
 - AI API integration
 - seed-based generation
 - refinement workflows
 
-Особенности:
+**Особенности:**
 - Flask backend
 - SPA frontend
 - preset styles
 - refinement pipeline
 - async generation polling
 
-Технологии:
+**Технологии:**
 `Python` `Flask` `REST API` `Yandex Cloud API`
 
-Screenshots: <br>
+**Screenshots:** <br>
 <a href="images/zeroyandex/redis_server.png" target="_blank">
   <img src="images/zeroyandex/redis_server.png" title="Пример генерации логотипа на сайте" height="100">
 </a>
@@ -289,18 +289,18 @@ Screenshots: <br>
 ### 🎤 Realtime Audio Transcriber *(WIP)*
 Система realtime-транскрибации аудио с локальным ASR и диагностическим pipeline.
 
-Текущий фокус:
+**Текущий фокус:**
 - realtime audio processing
 - queue-based architecture
 - WASAPI loopback capture
 - local ASR backends
 - diagnostics and debugging tools
 
-Технологии:
+**Технологии:**
 `Python` `Vosk` `PyAudio` `WASAPI`
--->
----
 
+---
+-->
 # 🛠 Технологии
 
 ### Backend
