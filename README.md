@@ -196,6 +196,59 @@ AI-ассистент на OpenClaw (Telegram + веб-чат с общей ис
   <img src="images/vaska/pres_example.png" alt="Пример сгенерированной презентации" title="Пример сгенерированной презентации" height="100">
 </a>
 
+---
+
+### 📚 [ArtistPortfolio](https://github.com/irinastu78-bot/ArtistPortfolio)
+Веб-приложение на Django для онлайн-портфолио художника или другого творческого представителя. Проект объединяет публичную галерею работ, детальные страницы произведений и удобную админ-панель для управления каталогом без ручного редактирования кода.
+
+Фронтенд выполнен без тяжелых фреймворков: адаптивная сетка карточек, фильтры, детальные страницы, лайтбокс, zoom-просмотр и аккуратная галерейная визуальная стилистика.
+
+**Что реализовано:**
+- Галерея художественных работ с настраиваемыми разделами, например: Живопись, Графика, ДПИ, Цифровое искусство.
+- Фильтрация работ по видам и стилям.
+- Детальная страница работы с описанием, техникой, размерами, статусом, ценой, выставками и похожими работами.
+- Блок «Выбор автора» на главной странице.
+- Загрузка основных и дополнительных изображений, поддержка видео.
+- Автоматическая генерация миниатюр через `easy-thumbnails`.
+- Лайтбокс и zoom-просмотр изображений на странице работы.
+- Редактируемые текстовые страницы, например: «Об авторе», «Контакты», «Политика конфиденциальности».
+- Cookie-баннер и подключение Яндекс.Метрики только после согласия пользователя.
+- Импорт и экспорт каталога работ через CSV.
+- Идемпотентный импорт: повторный запуск обновляет существующие записи, а не создает дубликаты.
+- Резервное копирование базы, данных приложения и медиафайлов отдельной management-командой.
+- Production-конфигурация через Docker Compose, Gunicorn, nginx и Let's Encrypt.
+
+**Технологии:**
+`Python` `Django 6` `SQLite` `Django Admin` `Pillow` `easy-thumbnails` `django-admin-sortable2` `Vanilla JavaScript` `CSS` `Docker` `Gunicorn` `nginx` `Certbot / Let's Encrypt`
+
+**Screenshots:** <br>
+<a href="images/ArtistPortfolio/home.png" target="_blank">
+  <img src="images/ArtistPortfolio/home.png" alt="Главная страница" title="Главная страница" height="100">
+</a>
+<a href="images/ArtistPortfolio/settings.png" target="_blank">
+  <img src="images/ArtistPortfolio/settings.png" alt="Настройки сайта" title="Настройки сайта" height="100">
+ </a>
+<a href="images/ArtistPortfolio/policy.png" target="_blank">
+  <img src="images/ArtistPortfolio/policy.png" alt="Запрос на согласие с политикой" title="Запрос на согласие с политикой" height="100">
+</a>
+<a href="images/ArtistPortfolio/styles.png" target="_blank">
+  <img src="images/ArtistPortfolio/styles.png" alt="Настройка списка стилей" title="Настройка списка стилей" height="100">
+</a>
+<br>
+
+<a href="images/ArtistPortfolio/admin_works.png" target="_blank">
+  <img src="images/ArtistPortfolio/admin_works.png" alt="Управление карточками работ" title="Управление карточками работ" height="100">
+</a>
+<a href="images/ArtistPortfolio/workcard_view.png">
+  <img src="images/ArtistPortfolio/workcard_view.png" alt="Карточка работы" title="Карточка работы" height="100">
+</a>
+<a href="images/ArtistPortfolio/workcard1.png" target="_blank">
+  <img src="images/ArtistPortfolio/workcard1.png" alt="Редактирование карточки работы" title="Редактирование карточки работы" height="100">
+</a>
+<a href="images/ArtistPortfolio/workcard2.png" target="_blank">
+  <img src="images/ArtistPortfolio/workcard2.png" alt="Редактирование карточки работы, продолжение" title="Редактирование карточки работы, продолжение" height="100">
+</a>
+
 
 ---
 
