@@ -222,31 +222,31 @@ AI-ассистент на OpenClaw (Telegram + веб-чат с общей ис
 `Python` `Django 6` `SQLite` `Django Admin` `Pillow` `easy-thumbnails` `django-admin-sortable2` `Vanilla JavaScript` `CSS` `Docker` `Gunicorn` `nginx` `Certbot / Let's Encrypt`
 
 **Screenshots:** <br>
-<a href="images/ArtistPortfolio/home.png" target="_blank">
-  <img src="images/ArtistPortfolio/home.png" alt="Главная страница" title="Главная страница" height="100">
+<a href="images/artistportfolio/home.png" target="_blank">
+  <img src="images/artistportfolio/home.png" alt="Главная страница" title="Главная страница" height="100">
 </a>
-<a href="images/ArtistPortfolio/settings.png" target="_blank">
-  <img src="images/ArtistPortfolio/settings.png" alt="Настройки сайта" title="Настройки сайта" height="100">
+<a href="images/artistportfolio/settings.png" target="_blank">
+  <img src="images/artistportfolio/settings.png" alt="Настройки сайта" title="Настройки сайта" height="100">
  </a>
-<a href="images/ArtistPortfolio/policy.png" target="_blank">
-  <img src="images/ArtistPortfolio/policy.png" alt="Запрос на согласие с политикой" title="Запрос на согласие с политикой" height="100">
+<a href="images/artistportfolio/policy.png" target="_blank">
+  <img src="images/artistportfolio/policy.png" alt="Запрос на согласие с политикой" title="Запрос на согласие с политикой" height="100">
 </a>
-<a href="images/ArtistPortfolio/styles.png" target="_blank">
-  <img src="images/ArtistPortfolio/styles.png" alt="Настройка списка стилей" title="Настройка списка стилей" height="100">
+<a href="images/artistportfolio/styles.png" target="_blank">
+  <img src="images/artistportfolio/styles.png" alt="Настройка списка стилей" title="Настройка списка стилей" height="100">
 </a>
 <br>
 
-<a href="images/ArtistPortfolio/admin_works.png" target="_blank">
-  <img src="images/ArtistPortfolio/admin_works.png" alt="Управление карточками работ" title="Управление карточками работ" height="100">
+<a href="images/artistportfolio/admin_works.png" target="_blank">
+  <img src="images/artistportfolio/admin_works.png" alt="Управление карточками работ" title="Управление карточками работ" height="100">
 </a>
-<a href="images/ArtistPortfolio/workcard_view.png">
-  <img src="images/ArtistPortfolio/workcard_view.png" alt="Карточка работы" title="Карточка работы" height="100">
+<a href="images/artistportfolio/workcard_view.png">
+  <img src="images/artistportfolio/workcard_view.png" alt="Карточка работы" title="Карточка работы" height="100">
 </a>
-<a href="images/ArtistPortfolio/workcard1.png" target="_blank">
-  <img src="images/ArtistPortfolio/workcard1.png" alt="Редактирование карточки работы" title="Редактирование карточки работы" height="100">
+<a href="images/artistportfolio/workcard1.png" target="_blank">
+  <img src="images/artistportfolio/workcard1.png" alt="Редактирование карточки работы" title="Редактирование карточки работы" height="100">
 </a>
-<a href="images/ArtistPortfolio/workcard2.png" target="_blank">
-  <img src="images/ArtistPortfolio/workcard2.png" alt="Редактирование карточки работы, продолжение" title="Редактирование карточки работы, продолжение" height="100">
+<a href="images/artistportfolio/workcard2.png" target="_blank">
+  <img src="images/artistportfolio/workcard2.png" alt="Редактирование карточки работы, продолжение" title="Редактирование карточки работы, продолжение" height="100">
 </a>
 
 
