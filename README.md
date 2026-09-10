@@ -25,6 +25,8 @@ Here are some ideas to get you started:
 - automation workflows
 - prompt engineering
 - AI-powered tools
+- landings and web sites
+- web and mobile analytics
 - генерация изображений и видео
 
 ---
